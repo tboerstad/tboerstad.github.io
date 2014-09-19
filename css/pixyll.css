@@ -66,13 +66,6 @@ body {
   padding: 0;
 }
 
-.site-header a:hover,
-.posts .post a:hover .post-meta,
-.posts .post a:hover .post-title,
-.posts .post a:hover .post-summary {
-  opacity: 0.88;
-}
-
 .site-header.px2
 {
   padding: 0.42em;
