@@ -321,8 +321,8 @@ strong, .bold {
 }
 
 .px2 {
-  padding-right: 2rem;
-  padding-left: 2rem;
+//  padding-right: 2rem;
+//  padding-left: 2rem;
 }
 
 .py2 {
@@ -363,8 +363,8 @@ strong, .bold {
 }
 
 .px-responsive {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+//  padding-right: 1.5rem;
+//  padding-left: 1.5rem;
 }
 
 .py-responsive {
@@ -378,8 +378,8 @@ strong, .bold {
   }
 
   .px-responsive {
-    padding-right: 3rem;
-    padding-left: 3rem;
+//    padding-right: 3rem;
+//    padding-left: 3rem;
   }
 
   .py-responsive {
@@ -393,8 +393,8 @@ strong, .bold {
   }
 
   .px-responsive {
-    padding-right: 4rem;
-    padding-left: 4rem;
+//    padding-right: 4rem;
+//    padding-left: 4rem;
   }
 
   .py-responsive {
