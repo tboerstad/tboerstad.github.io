@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <!-- <div class="posts"> -->
+    {% for post in site.posts %}
+      {% if post.categories contains 'books' %} 
+	    <img class="book-list" src="{{ post.cover | prepend: site.baseurl }}">
+      {% endif %}
+    {% endfor %}
+  <!-- </div> -->
+
+  {% include pagination.html %}
+
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+</div>

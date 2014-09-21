@@ -239,6 +239,10 @@ h6,
   margin: 1.414em 0 0.5em;
 }
 
+.book-list {
+    max-width: 25%;
+}
+
 @media screen and (max-width: 48em) {
   .h1,
   h1 {
