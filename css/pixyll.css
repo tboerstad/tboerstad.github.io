@@ -241,6 +241,7 @@ h6,
 
 .book-list {
     max-width: 25%;
+    border: 1px solid rgb(224, 224, 224)
 }
 
 @media screen and (max-width: 48em) {

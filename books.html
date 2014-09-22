@@ -7,7 +7,9 @@ layout: default
   <!-- <div class="posts"> -->
     {% for post in site.posts %}
       {% if post.categories contains 'books' %} 
-	    <img class="book-list" src="{{ post.cover | prepend: site.baseurl }}">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+	     <img class="book-list" src="{{ post.cover | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+	    </a>
       {% endif %}
     {% endfor %}
   <!-- </div> -->
