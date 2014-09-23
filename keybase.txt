@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/tboerstad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.sultro.com
+  * I am tboerstad (https://keybase.io/tboerstad) on keybase.
+  * I have a public key with fingerprint 2C0C 872F B478 45EB 3728  1FE8 9A2E 41B8 45FB B7BB
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.1"
+        },
+        "key": {
+            "fingerprint": "2c0c872fb47845eb37281fe89a2e41b845fbb7bb",
+            "host": "keybase.io",
+            "key_id": "9A2E41B845FBB7BB",
+            "uid": "f5311a0ca85de9f9e0e896f4e6f55800",
+            "username": "tboerstad"
+        },
+        "merkle_root": {
+            "ctime": 1411487837,
+            "hash": "0255503fe3839960c5e7041e9cec43d03a304b5f574ef171f41fe6b37e1fd16da1f8227b3188954d3360de4c897947c153d48ef027b38b34ef359b2b96469004",
+            "seqno": 56886
+        },
+        "service": {
+            "hostname": "www.sultro.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411487849,
+    "expire_in": 157680000,
+    "prev": "8836ab013b4045ef320c15ebb4576b411726ca1d8ed9da4f91110e4709908387",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+owFdks1rFDEYxqd+USuF9uCpCHU8eHAZk0kySdaDdKEevVQPenCZTN60sbuTdWb6
+RS0ignj0YEGK4M2Pk3hS8E+oildPngQFQcGjUE2WFaq3JO8vT57nfXN/8mA0Pr2T
+zL2e//XqzdjuVxVdOvnQbsbK6Y24vRkXPQtlE1Zl3oe4HS/DhsprSKybLZ2G5Ho9
+O2Ja8SpUtXWlp1DCExxvtQIeLhtbLkI1qGzQitMCFYKnRlEuKANFeCqwASHzFChW
+/swoxZXykkuubv55NR5qdq32p3Iunae44/kLnQ7vdHxtZVgwjGCcoyIXTIM0EpAX
+zwyFzDAmEApgDdUoUqOcN97kOhjuQ7Xcg27l3DB10djAYIoxFVwQ7i3l9VKImDLG
+EDFABJEyQwUDjigGWUBBiUYkJ4gqZhinYDDHhvqImc8K2Gic6RwbkaZcESyEZFQT
+kiENtBCSS8oLzIimAgwKiFDEixAmVapkRjOJEPUZarhRurjNMiGyrbCtVm0BwXZo
+2yjd2tpaUq/0msolhev7W4PKNa5wPV9bappBO6RuNgZDFl6o7kimq2yp/dj2zxV7
+9L+OUNmKYX1gK+jaQDCe+QYjFN6BVa8pBMlyhTBRFPlhG5IiHw6Uoh5VXoWnWZFj
+LUBLnVMjMcYIKEdSIkEE35fT+8wXvWRtF8u8Wakg3rp37VA0PR4dOXwg/Nto4ujU
+38+8cDraO7Nz8/bEy+2ZsYundu+4q3f3zv28sj3Jk/r7enf30/FjY9GTZ1PnHy+8
+f8rf2am3/Ozvj9/6nx+kl088+nDrx/PW3Jc/
+=gp9Q
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tboerstad
+
+==================================================================
