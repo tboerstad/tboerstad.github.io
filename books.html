@@ -8,7 +8,7 @@ layout: default
     {% for post in site.posts %}
       {% if post.categories contains 'books' %} 
             <a href="{{ post.url | prepend: site.baseurl }}">
-	     <img class="book-list" src="{{ post.cover | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+	     <img class="book-list" src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg" alt="{{ post.title }}" title="{{ post.title }}">
 	    </a>
       {% endif %}
     {% endfor %}

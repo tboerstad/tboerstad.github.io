@@ -21,10 +21,6 @@ html, body {
   height: 100%;
 }
 
-img {
-  width: 100%;
-}
-
 .site-wrap {
   min-height: 100%;
   margin-bottom: -100px;
