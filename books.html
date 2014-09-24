@@ -9,8 +9,8 @@ layout: default
       {% if post.categories contains 'books' %} 
             <a href="{{ post.url | prepend: site.baseurl }}">
 	      <span class="book-list" data-picture data-alt="{{ post.title }}">
-		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-small.jpg" data-media="(min-width: 400px)"></span>
-		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg"  data-media="(min-width: 800px)"></span>
+		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-small.jpg"  ></span>
+		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg" data-media="(min-width: 400px)"></span>
 		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-large.jpg"  data-media="(min-width: 1000px)"></span>
 		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		<noscript>
