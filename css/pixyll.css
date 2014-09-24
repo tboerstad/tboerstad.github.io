@@ -21,6 +21,10 @@ html, body {
   height: 100%;
 }
 
+img {
+  width: 100%;
+}
+
 .site-wrap {
   min-height: 100%;
   margin-bottom: -100px;
@@ -236,7 +240,8 @@ h6,
 }
 
 .book-list {
-    max-width: 25%;
+    display: inline-block;
+    max-width: 23%;
     border: 1px solid rgb(224, 224, 224)
 }
 
