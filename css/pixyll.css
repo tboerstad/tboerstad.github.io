@@ -241,9 +241,10 @@ h6,
 
 .book-list {
     display: inline-block;
-    max-width: 23%;
-    border: 1px solid rgb(224, 224, 224)
+    border: 0.06em solid rgb(224, 224, 224);
+    margin: 0.5%;
 }
+
 
 @media screen and (max-width: 48em) {
   .h1,
@@ -269,6 +270,11 @@ h6,
   .site-header {
     text-align: center;
   }
+  
+  .responsive-width {
+    width: 47%;
+  }
+  
 }
 
 @media screen and (min-width: 48em) {
@@ -325,6 +331,11 @@ h6,
     margin-bottom: .333em;
     padding-bottom: 0;
   }
+
+  .responsive-width {
+    width: 22.7%;
+  }
+
 }
 
 @media screen and (min-width: 64em) {
@@ -367,6 +378,11 @@ h6,
     margin-bottom: .666em;
     padding-bottom: 0;
   }
+
+  .responsive-width {
+    width: 14.7%;
+  }
+
 }
 
 footer {

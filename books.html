@@ -1,20 +1,18 @@
 ---
-layout: default
+layout: book
 ---
 
-<div class="home">
-  
   <!-- <div class="posts"> -->
     {% for post in site.posts %}
       {% if post.categories contains 'books' %} 
             <a href="{{ post.url | prepend: site.baseurl }}">
-	      <span class="book-list" data-picture data-alt="{{ post.title }}">
-		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-small.jpg"  ></span>
-		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg" data-media="(min-width: 400px)"></span>
-		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-large.jpg"  data-media="(min-width: 1000px)"></span>
+   	        <span class="book-list responsive-width" data-picture data-alt="{{ post.title }}">
+      		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-large.jpg"  ></span>
+		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-large.jpg"  data-media="(min-width: 48em)"></span>
+		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg"  data-media="(min-width: 64em)"></span>
 		<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		<noscript>
-		  <img src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-large.jpg" alt="{{ post.title }}" title="{{ post.title }}">
+		  <img src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-unicorn.jpg" alt="{{ post.title }}" title="{{ post.title }}">
 		</noscript>
 	      </span>
 	    </a>
@@ -22,7 +20,6 @@ layout: default
     {% endfor %}
   <!-- </div> -->
 
-  {% include pagination.html %}
+  <!-- {% include pagination.html %} -->
 
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-</div>
