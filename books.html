@@ -3,10 +3,9 @@ layout: book
 ---
 
   <!-- <div class="posts"> -->
-    {% for post in site.posts %}
-      {% if post.categories contains 'books' %} 
+    {% for post in site.posts %}{% if post.categories contains 'books' %}<div class="book-list responsive-width">
             <a href="{{ post.url | prepend: site.baseurl }}">
-   	        <span class="book-list responsive-width" data-picture data-alt="{{ post.title }}">
+   	        <span data-picture data-alt="{{ post.title }}">
       		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-medium.jpg"  ></span>
 		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-small.jpg"  data-media="(min-width: 48em)"></span>
 		<span data-src="{{ site.baseurl}}/bookcovers/{{ post.cover }}-small.jpg"  data-media="(min-width: 64em)"></span>
@@ -16,8 +15,7 @@ layout: book
 		</noscript>
 	      </span>
 	    </a>
-      {% endif %}
-    {% endfor %}
+</div>{% endif %}{% endfor %}
   <!-- </div> -->
 
   <!-- {% include pagination.html %} -->
