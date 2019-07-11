@@ -7,5 +7,4 @@ categories: jekyll books
 cover:      moonwalking-with-einstein
 ---
 
-![The book]({{ site.url }}/bookcovers/moonwalking_with_einstein.jpg)
 You'll remember more. What's not to like?
